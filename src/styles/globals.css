@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.space {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+@font-face {
+    font-family: "shapiro";
+    src: url("/fonts/shapiro.ttf");
+}
+
+.shapiro {
+    font-family: "shapiro";
+}
