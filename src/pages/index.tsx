@@ -10,14 +10,13 @@ const Home: NextPage = () => {
   const pay = async () => {
     if (loading) return;
     setLoading(true);
-    plege
-      .createTransferRequest({
+    plege.transfers
+      .initiate({
         recipient: "AQiszckBeysWtwZ5YN9pMy1dDTs4jLMHxwui743ubGj2",
-        splToken: "Gh9ZwEmdLJ8DscKNTkTqPbNwLNNBjuSzaG9Vp2KGtKJr",
+        token: "USDC",
         amount: 1,
         network: "DEVNET",
-        successRedirectUrl: "https://demo.plege.xyz/success",
-        failRedirectUrl: "https://demo.plege.xyz/",
+        returnUrl: "https://demo.plege.xyz/success",
       })
       .then((data) => {
         window.location.href = data.url;

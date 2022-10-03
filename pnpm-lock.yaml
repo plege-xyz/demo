@@ -10,7 +10,7 @@ specifiers:
   eslint: 8.22.0
   eslint-config-next: 12.2.5
   next: 12.2.5
-  plege: ^1.0.8
+  plege: ^1.0.10
   postcss: ^8.4.16
   react: 18.2.0
   react-dom: 18.2.0
@@ -20,7 +20,7 @@ specifiers:
 
 dependencies:
   next: 12.2.5_biqbaboplfbrettd7655fr4n2y
-  plege: 1.0.8
+  plege: 1.0.10
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   zod: 3.19.1
@@ -855,6 +855,10 @@ packages:
   /csstype/3.1.1:
     resolution: {integrity: sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==}
     dev: true
+
+  /cuid/2.1.8:
+    resolution: {integrity: sha512-xiEMER6E7TlTPnDxrM4eRiC6TRgjNX9xzEZ5U/Se2YJKr7Mq4pJn/2XEHjl3STcSh96GmkHPcBXLES8M29wyyg==}
+    dev: false
 
   /damerau-levenshtein/1.0.8:
     resolution: {integrity: sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==}
@@ -2110,12 +2114,13 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /plege/1.0.8:
-    resolution: {integrity: sha512-eir8KH5GNkH7XhP0l1m0gKftRfPtBitAPYaephqQ9P/q6Q8OYD+4NKRjmrwi/FVX3wqMlQSG0l2YcOo/h7gOKQ==}
+  /plege/1.0.10:
+    resolution: {integrity: sha512-6/8S5snCCk+H3uVe9WBSiMlFkinOnM0/JYDeGNVLTe7JMKm3CK2xPzk3pnLSLpaV2HY3gArG5Q/jhmEqwopDVw==}
     dependencies:
       '@solana/spl-token': 0.3.5_@solana+web3.js@1.63.1
       '@solana/web3.js': 1.63.1
       axios: 0.27.2
+      cuid: 2.1.8
       zod: 3.19.1
     transitivePeerDependencies:
       - bufferutil
