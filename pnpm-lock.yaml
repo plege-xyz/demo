@@ -10,7 +10,7 @@ specifiers:
   eslint: 8.22.0
   eslint-config-next: 12.2.5
   next: 12.2.5
-  plege: ^1.0.10
+  plege: ^1.0.11
   postcss: ^8.4.16
   react: 18.2.0
   react-dom: 18.2.0
@@ -20,7 +20,7 @@ specifiers:
 
 dependencies:
   next: 12.2.5_biqbaboplfbrettd7655fr4n2y
-  plege: 1.0.10
+  plege: 1.0.11
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   zod: 3.19.1
@@ -2114,8 +2114,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /plege/1.0.10:
-    resolution: {integrity: sha512-6/8S5snCCk+H3uVe9WBSiMlFkinOnM0/JYDeGNVLTe7JMKm3CK2xPzk3pnLSLpaV2HY3gArG5Q/jhmEqwopDVw==}
+  /plege/1.0.11:
+    resolution: {integrity: sha512-U3bhxvbL3cTkqESTbyaHUhEVwjIIGSKCR1lkgug+1WG3v4PDJxUY6DI8IicgS729gzREc/PLc969Wy7vNsbuOA==}
     dependencies:
       '@solana/spl-token': 0.3.5_@solana+web3.js@1.63.1
       '@solana/web3.js': 1.63.1
