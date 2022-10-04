@@ -29,7 +29,7 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <div className="relative w-screen h-screen bg-[#111] flex flex-col items-center justify-center">
+      <div className="relative w-screen h-screen bg-[#111] flex flex-col items-center justify-center text-white">
         <button
           className="h-14 w-48 flex items-center justify-center text-lg bg-blue-700 hover:bg-blue-600 rounded shapiro "
           onClick={pay}
