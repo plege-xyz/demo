@@ -12,7 +12,7 @@ const Home: NextPage = () => {
     setLoading(true);
     plege.transfers
       .initiate({
-        recipient: "AQiszckBeysWtwZ5YN9pMy1dDTs4jLMHxwui743ubGj2",
+        recipient: "HHX2R9dW5DyPqjg9pDSEjj5zEy11zg5AGr356PM6Exaq",
         token: "USDC",
         amount: 1,
         network: "DEVNET",
@@ -31,14 +31,14 @@ const Home: NextPage = () => {
     <>
       <div className="relative w-screen h-screen bg-[#111] flex flex-col items-center justify-center">
         <button
-          className="h-14 w-48 flex items-center justify-center text-lg bg-blue-700 hover:bg-blue-600 rounded shapiro text-white"
+          className="h-14 w-48 flex items-center justify-center text-lg bg-blue-700 hover:bg-blue-600 rounded shapiro "
           onClick={pay}
         >
           {!loading ? (
             "Pay"
           ) : (
             <svg
-              className="animate-spin w-5 h-5 text-white"
+              className="animate-spin w-5 h-5 "
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
@@ -60,7 +60,7 @@ const Home: NextPage = () => {
           )}
         </button>
 
-        <div className="absolute left-0 bottom-10 w-full flex items-center justify-center text-white shapiro">
+        <div className="absolute left-0 bottom-10 w-full flex items-center justify-center  shapiro">
           <a
             className="h-10 w-48 rounded bg-blue-600 text-sm flex items-center justify-center ml-3"
             href="https://spl-token-faucet.com/?token-name=USDC-Dev"

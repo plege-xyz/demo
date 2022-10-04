@@ -1,6 +1,6 @@
 const success = () => {
   return (
-    <div className="w-screen h-screen flex items-center justify-center bg-[#111] text-white shapiro text-3xl">
+    <div className="w-screen h-screen flex items-center justify-center bg-[#111]  shapiro text-3xl">
       Success ✅
     </div>
   );
